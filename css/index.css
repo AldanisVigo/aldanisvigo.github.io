@@ -1,3 +1,7 @@
+body{
+    padding-top: 50px !important;
+}
+
 #me{
     background-image: url('/img/me.png');
     background-attachment: inherit;
@@ -23,10 +27,18 @@
         background-repeat: no-repeat;
         background-position: 0% center;
     }
+
+    #main_section{
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 768px){
     #me{
         background-position: center;
+    }
+
+    #main_section{
+        margin-bottom: 350px;
     }
 }

@@ -1,3 +1,109 @@
-{
-
-}
+[
+  {
+    "title" : "VigoDoc",
+    "description" : "There’s no post for this project yet, because I am actively working on it. But I will post the link to the project post when I complete it. GitHub link attached.",
+    "display_image" : "img/projects/vigodoc.gif",
+    "links" : [
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/VigoDoc.git"
+      }
+    ]
+  },
+  {
+    "title" : "Vigo's Rock Paper Scissors",
+    "description" : "Last night I decided to make my second socket.io project. I decided to make a multiplayer rock paper scissors type game. The idea is players can join a chat, and the server will notify players of the current hand being played and provide a timer for players to make their selection: ‘rock’, ‘paper’ or ‘scissors’. When the current hand’s timer is up, the server displays everyones hands so that the group may determine the winner.\n\nThe focus of this project, was learning how to connect clients together using Socket.IO’s web socket functionality. I enjoyed working on this project and learning a bit more reactive programming using Node.js and Socket.IO",
+    "display_image" : "img/projects/vigosrps.png",
+    "links" : [
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/RockPaperScissorsSocketIO.git"
+      }
+    ]
+  },
+  {
+    "title" : "Coffee Project",
+    "description" : "My second pair programming project at CodeUp. Lucas Slade and I were instructed to create the front end for a coffee shop. We came up with this simple but effective concept.",
+    "display_image" : "img/projects/coffeeproject.png",
+    "links" : [
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/lucas-n-vigo-coffee-project/coffee-project.git"
+      }
+    ]
+  },
+  {
+    "title" : "Jobify MERN Course",
+    "description" : "I just deployed my first MERN application. After going through John Smilga’s Udemy course, I am proud to announce that I was able to build and deploy my very first MERN application to Heroku. I followed the course step by step and was able to create this demo application.",
+    "display_image" : "img/projects/jobify.png",
+    "links" : [
+      {
+        "name" : "Demo",
+        "url" : "http://vigosjobify.herokuapp.com"
+      },
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/Jobify.git"
+      }
+    ]
+  },
+  {
+    "title" : "Swift UI - Pinch & Zoom Gestures",
+    "description" : "I recently bought a nice course on Udemy.com that covers the basics of SwiftUI and how to create unique designs with smooth and engaging animations. I completed the lesson efficiently and learned much about SwiftUI gestures and how they are handled.",
+    "display_image" : "img/projects/swiftuizoomgestures.png",
+    "links" : [
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/SwiftUI-Tutorial-Udemy-Pinch-App"
+      }
+    ]
+  },
+  {
+    "title" : "VigoChat",
+    "description" : "For this project, I wanted to review some of the basics of jQuery, Node.js, Socket.io, and other remarkable technologies. It consists of a public multiuser chat UI with a private messaging feature. The entire front-end UI is driven basically by jQuery, and the backend is driven by a Node.js server running Socket.io. I had a lot of fun building this project. I did not put a lot of emphasis on security for this project, so don’t use it to send private information. It helped me to get a new appreciation of what it takes to build applications using these wonderful technologies and I plan to expand on this learning in the future.",
+    "display_image" : "img/projects/vigochat.png",
+    "links" : [
+      {
+        "name" : "Demo",
+        "url" : "http://vigochat.herokuapp.com/"
+      },
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/OpenShiftVigoChat.git"
+      }
+    ]
+  },
+  {
+    "title" : "SaucePanTv.net",
+    "description" : "SaucePanTv.net started from a facebook group called SaucePanTV. They are a group of streamers that focus on promoting and distributing music using Facebook Live as a tool. Members of the SaucePanTv group reached out to me because they needed a better way to receive track submissions and they didn’t like having to use email. They found it difficult to stay on track and maintain an organized stream when there were hundreds of tracks being sent one after the other. I quickly implemented an app called PlayMyHit which dealt with the problem by providing the streamers with a nice interface where people could post their tracks or links and they would be queued up one after the next. And it had cool bells and whistles like a wheel for selecting who’s next and audio players to play the track right on the page. It made things a lot easier.\n\nAfter we completed that project the streamers wanted to create an app for a new community spawning from the facebook group. And that’s when I started developing SaucePanTv.net. The project is not yet complete, and I am developing a mobile app version written entirely in Dart using the Flutter framework too. Hopefully I will complete it soon and release it here on this blog. Overall I have learned a lot about React, Firebase and Flutter while implementing these applications. And I hope to be able to improve them in the future and include awesome features.",
+    "display_image" : "img/projects/saucepantv.png",
+    "links" : [
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/SaucePanTvDotNet.git"
+      }
+    ]
+  },
+  {
+    "title" : "Unity Mini Games",
+    "description" : "I recently bought a course from GameDevTv that walks you through the ins and outs of creating Unity 3D video games. It was an immersive course and I got a lot of knowledge out of it. I was able to create a few mini games while I learned Unity. And I decided to put two of them on a webpage to test how it would work using the OpenGL exporter. I thought it would be a good idea to include them here.",
+    "display_image" : "img/projects/unitygames.png",
+    "links" : [
+      {
+        "name" : "Demo",
+        "url" : "https://gamesbyvigo.web.app/"
+      }
+    ]
+  },
+  {
+    "title" : "Generative Art NFT Collection on The Solana Blockchain Using Metaplex’s Candy Machine v2",
+    "description" : "Lately I have been diving into Solana blockchain development. I had a few colleagues approach me to work with them on NFT projects they launched on the platform and that sparked my curiosity. I spent a couple of days researching the different projects available on GitHub and I was able to find a bunch of different ones that focus on NFTs. Among those I ran into Candy Machine v2 by Metaplex. I will link the GitHub repo at the end of this post.\n\nI learned how generative NFTs are created by using a bunch of image layers, each one representing a variation of an element of the image. Essentially, Candy Machine v2 lets you organize your layers into individual folders, one for each attribute of your NFT art, and inside you can place all the different layers for each trait something similar to this structure.\n\nAssets \n |_ Faces\n |    |_ Face_One.png\n |    |_ Face_Two.png\n |    |_ Face_Three.png\n |\n |_ Eyes\n |    |_ Eyes_One.png\n |    |_ Eyes_Two.png\n |    |_ Eyes_Three.png\n |\n |_ Mouths\n      |_ Mouth_One.png\n      |_ Mouth_Two.png\n      |_ Mouth_Three.png\nCandy machine also uses a naming convention for the files that basically allows you to control the rarity of the traits by appending a number to the end of the name of the file. I will go more in depth about the Candy Machine in a different article which I will link below this post later. But once you have organized all the layers, the Candy Machine gives you a simple command you can run to generate all the art, and the metadata associated with each image. You can then use these files to deploy the NFT collection to an open storage solution like arweave or IPFS and deploy the candy machine program to the blockchain. Once you have deployed all the files to open storage and the program to the blockchain using Metaplex’s tools and the solana cli, the next step is setting up the Candy Machine UI which comes inside the Metaplex GitHub repository linked below.\n\nThe Candy Machine UI is a simple front end written in React, which contains a component that lets you mint your NFT collection. It is fully customizable and it allow you to put your own spin on it. So basically there’s no Rust programming necessary to deploy a collection in this manner, because Metaplex already did the hard work of writing the Rust Solana program that handles the blockchain side of things for you. And they made tools that make it easy to deploy the art.",
+    "display_image" : "img/projects/nftcollection.png",
+    "links" : [
+      {
+        "name" : "Demo",
+        "url" : "https://muc-2d42d.web.app/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title" : "freeCodeCamp.org - Front End Development Libraries",
+    "issued" : "July 19, 2022",
+    "image" : "img/certs/freecodecampcert.png"
+  },
+  {
+    "title" : "HackerRank.com - JavaScript - Intermediate",
+    "issued" : "July 2, 2022",
+    "image" : "img/certs/hackerrankcert1.png"
+  },
+  {
+    "title" : "HackerRank.com - JavaScript - Basic",
+    "issued" : "July 2, 2022",
+    "image" : "img/certs/hackerrankcert2.png"
+  },
+  {
+    "title" : "HackerRank.com - Problem Solving (Basic)",
+    "issued" : "September 19, 2020",
+    "image" : "img/certs/hackerrankcert3.png"
+  },
+  {
+    "title" : "ITT Tech - A.S - Computer and Electronics Engineering Technology",
+    "issued" : "June 9, 2013",
+    "image" : "img/certs/itttechdegree.png"
+  },
+  {
+    "title" : "ITT Tech - Academic Honors",
+    "issued" : "June 9, 2013",
+    "image" : "img/certs/itttechhonorscert.png"
+  }
+]

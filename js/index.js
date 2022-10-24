@@ -3,7 +3,7 @@
 */
 const buildProjectsSection = async () => {
     try {
-        let data = await fetch('data/projects.json')
+        let data = await fetch('http://aldanisvigo.github.io/data/projects.json')
         const projects = await data.json()
         projects.forEach((project,index)=>{
             //Generate an element for the project title

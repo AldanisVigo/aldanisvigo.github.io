@@ -78,8 +78,31 @@ buildProjectsSection()
  */
 const buildCertsSection = async () => {
     try{
+        let src = window.location.hostname === 'localhost' ? 'data/certs.json' : 'http://aldanisvigo.github.io/data/certs.json'
+        let data = await fetch(src)
+        const certs = await data.json()
+        certs.forEach(cert=>{
+            //Generate a container for the cert image
+            const certContainer = document.createElement('div')
+            //Add classes for bootstrap styling
+            $(certContainer).addClass('col-6 col-md-4 col-lg-3 mt-3')
 
+            //Generate the certificate image element
+            const certImage = document.createElement('img')
+            //Set the src attribute of the cert image
+            $(certImage).attr('src',cert.image)
+            //Add classes for bootstrap styling
+            $(certImage).addClass('img').addClass('img-thumbnail').addClass('h-100')
+
+            //Add the image to the cert container
+            $(certContainer).append(certImage)
+
+            //Add the cert to the certs section
+            $('#certs_container').append(certContainer)
+        })
     }catch(err){
         console.error(err)
     }
 }
+
+buildCertsSection()

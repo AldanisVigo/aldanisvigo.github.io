@@ -3,7 +3,7 @@
 */
 const buildProjectsSection = async () => {
     try {
-        let src = window.location.hostname === 'localhost' ? 'data/projects.json' : 'http://aldanisvigo.github.io/data/projects.json'
+        let src = window.location.hostname === 'localhost' ? 'data/projects.json' : 'https://aldanisvigo.github.io/data/projects.json'
         let data = await fetch(src)
         const projects = await data.json()
         projects.forEach((project,index)=>{
@@ -78,7 +78,7 @@ buildProjectsSection()
  */
 const buildCertsSection = async () => {
     try{
-        let src = window.location.hostname === 'localhost' ? 'data/certs.json' : 'http://aldanisvigo.github.io/data/certs.json'
+        let src = window.location.hostname === 'localhost' ? 'data/certs.json' : 'https://aldanisvigo.github.io/data/certs.json'
         let data = await fetch(src)
         const certs = await data.json()
         certs.forEach(cert=>{

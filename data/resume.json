@@ -1,0 +1,98 @@
+
+  {
+    "title":"Aldanis Vigo",
+    "position":"Full Stack Web Developer",
+    "headline":"Talented Veteran with full stack web development, problem-solving, and leadership experience. A mix of extreme curiosity, an agreeable personality and a passion to learn sparked my interest in pursuing a career in web development. I am pursuing the opportunity to leverage my skill set, to be part of a team, write readable code and use cutting edge technologies.",
+    "phone":"(254) 394-9926",
+    "email":"aldanisvigo@gmail.com",
+    "linkedin":"aldanisvigo",
+    "linkedinurl":"https://www.linkedin.com/in/aldanisvigo/",
+    "github":"aldanisvigo",
+    "githuburl": "https://github.com/aldanisvigo",
+    "skillsandabilities":["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "academic" : [
+      {
+        "institution" : "ITT Technical Institute Miami",
+        "title" : "A.S - Computer and Electronics Engineering Technology",
+        "graduated" : true,
+        "graduation_date" : "June 9, 2013"
+      },
+      {
+        "institution" : "Excelsior University",
+        "title" : "B.S - Electrical Engineering Technology",
+        "graduated" : false,
+        "graduation_date" : "2024"
+      },
+      {
+        "institution" : "Lorenzo Walker Institute of Technology",
+        "title" : "General Education Diploma",
+        "graduated" : true,
+        "graduation_date" : "2007"
+      }
+    ],
+    "professional" : [
+      {
+        "company" : "Self Employed",
+        "position" : "Web Developer",
+        "start" : "April, 2011",
+        "end" : "Jan, 2022",
+        "responsibilities" : [
+          "Designing websites, and marketing materials",
+          "Writing code, and implementing designs",
+          "Maintaining websites for various clients"
+        ],
+        "achievements" : [
+
+        ]
+      },
+      {
+        "company" : "U.S Army",
+        "position" : "Infantry Team Leader",
+        "start" : "May 11, 2008",
+        "end" : "May 11, 2011",
+        "responsibilities" : [
+          "Responsible for $80M Bradley weapons platform.",
+          "Leading a small mounted infantry team"
+        ],
+        "achievements" : [
+          "Closed-with, and destroyed enemies of the U.S",
+          "Earned the army commendation medal",
+          "Earned the infantrymans badge"
+        ]
+      },
+      {
+        "company" : "Sears",
+        "position" : "Electronics Salesman",
+        "start" : "Jan, 2006",
+        "end" : "May, 2008",
+        "responsibilities" : [
+          "Maintaining product sales quotas",
+          "Executing plannogram implementations",
+          "Maintaining customer relationships"
+        ],
+        "achievements" : [
+          "Consistently met my sales quotas."
+        ]
+      }
+    ],
+    "projects" : [
+      {
+        "name" : "Codeup Design",
+        "description" : "CodeUp Design Description"
+      },
+      {
+        "name" : "Smooth Coffee",
+        "description" : "Smooth Coffee Description"
+      },
+      {
+        "name" : "MapBox Best Dishes In Killeen TX",
+        "description" : "MapBox Best Dishes In Killeen TX Description"
+      },
+      {
+        "name" : "Danny's Weather Map",
+        "description" : "Danny's weather map description"
+      }
+    ]
+  }
+
+

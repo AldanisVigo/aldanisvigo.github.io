@@ -109,7 +109,7 @@
   {
     "title" : "Interactive Slide Puzzle Game",
     "description" : "This is a simple tiled slide puzzle game written in javascript, html and css. The idea is to get the numbers in order. You can grab tile pieces and drag them into the empty slot one at a time until you get them in the correct order. The project features cool css animations, audio and a simple game loop.",
-    "display_image" : "img/project/slidepuzzle.gif",
+    "display_image" : "img/projects/slidepuzzle.gif",
     "links" : [
       {
         "name" : "GitHub",

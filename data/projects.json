@@ -29,6 +29,10 @@
       {
         "name" : "GitHub",
         "url" : "https://github.com/lucas-n-vigo-coffee-project/coffee-project.git"
+      },
+      {
+        "name" : "Demo",
+        "url" : "https://lucas-n-vigo-coffee-project.github.io/coffee-project/"
       }
     ]
   },
@@ -81,6 +85,10 @@
       {
         "name" : "GitHub",
         "url" : "https://github.com/AldanisVigo/SaucePanTvDotNet.git"
+      },
+      {
+        "name" : "Demo",
+        "url" : "https://saucepantv.net"
       }
     ]
   },
@@ -92,6 +100,10 @@
       {
         "name" : "Demo",
         "url" : "https://gamesbyvigo.web.app/"
+      },
+      {
+        "name" : "Jenn's Piggy Bank - GitHub",
+        "url" : "https://github.com/AldanisVigo/Drop-The-Coin/tree/main/Jenn's%20Piggy%20Bank"
       }
     ]
   },

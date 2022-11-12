@@ -28,5 +28,15 @@
     "title" : "ITT Tech - Academic Honors",
     "issued" : "June 9, 2013",
     "image" : "img/certs/itttechhonorscert.png"
+  },
+  {
+    "title" : "AWS Badge - Getting Started With Storage",
+    "issued" : "October 28, 2022",
+    "image" : "img/certs/awsstoragebadge.png"
+  },
+  {
+    "title" : "AWS Badge - Getting Started With Compute",
+    "issued" : "November 10, 2022",
+    "image" : "img/certs/awscomputebadge.png"
   }
 ]

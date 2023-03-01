@@ -24,6 +24,10 @@ body{
     user-select: none; /* Standard */
 }
 
+#resume {
+    display: none;
+}
+
 .bounce{
     animation: bounce 1s linear 1s alternate infinite;
 }

@@ -1,12 +1,12 @@
 [
   {
-    "title" : "VigoDoc",
-    "description" : "There’s no post for this project yet, because I am actively working on it. But I will post the link to the project post when I complete it. GitHub link attached.",
-    "display_image" : "img/projects/vigodoc.gif",
+    "title" : "Health Points Fitness", 
+    "description" : "My first pair programming project at CodeUp. Lucas Slade and I were instructed to create the front end for a health points fitness game. We came up with this simple but effective concept.",
+    "display_image" : "img/projects/healthpointsfitness.png",
     "links" : [
       {
         "name" : "GitHub",
-        "url" : "https://github.com/AldanisVigo/VigoDoc.git"
+        "url" : "https://github.com/AldanisVigo/HealthPointsFitness.git"
       }
     ]
   },
@@ -33,6 +33,17 @@
       {
         "name" : "Demo",
         "url" : "https://lucas-n-vigo-coffee-project.github.io/coffee-project/"
+      }
+    ]
+  },
+  {
+    "title" : "VigoDoc",
+    "description" : "There’s no post for this project yet, because I am actively working on it. But I will post the link to the project post when I complete it. GitHub link attached.",
+    "display_image" : "img/projects/vigodoc.gif",
+    "links" : [
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/VigoDoc.git"
       }
     ]
   },

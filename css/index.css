@@ -8,7 +8,8 @@ body{
 #me{
     background-image: url('../img/me.png');
     background-attachment: inherit;
-    background-size: cover;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -25,7 +26,7 @@ body{
 }
 
 #resume {
-    display: none;
+    display: block;
 }
 
 .bounce{

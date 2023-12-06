@@ -3,7 +3,8 @@
 */
 const buildProjectsSection = async () => {
     try {
-        let src = window.location.hostname === 'localhost' ? 'data/projects.json' : 'https://aldanisvigo.github.io/data/projects.json'
+        console.log(window.location.hostname)
+        let src = window.location.hostname === 'localhost' || window.location.hostname == '127.0.0.1' ? 'data/projects.json' : 'https://aldanisvigo.github.io/data/projects.json'
         let data = await fetch(src)
         const projects = await data.json()
         projects.forEach((project,index)=>{
@@ -80,7 +81,7 @@ buildProjectsSection()
  */
 const buildCertsSection = async () => {
     try{
-        let src = window.location.hostname === 'localhost' ? 'data/certs.json' : 'https://aldanisvigo.github.io/data/certs.json'
+        let src = window.location.hostname === 'localhost' || window.location.hostname == '127.0.0.1' ? 'data/certs.json' : 'https://aldanisvigo.github.io/data/certs.json'
         let data = await fetch(src)
         const certs = await data.json()
         certs.forEach(cert=>{
@@ -115,7 +116,7 @@ buildCertsSection()
  */
 const fillInResume = async () => {
     try {
-        let src = window.location.hostname === 'localhost' ? 'data/resume.json' : 'https://aldanisvigo.github.io/data/resume.json'
+        let src = window.location.hostname === 'localhost' || window.location.hostname == '127.0.0.1' ? 'data/resume.json' : 'https://aldanisvigo.github.io/data/resume.json'
         const data = await fetch(src)
         const resume = await data.json()
 

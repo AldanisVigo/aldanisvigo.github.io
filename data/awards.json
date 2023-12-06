@@ -2,16 +2,19 @@
   {
     "organization" : "ITT Technical Institute Miami",
     "title" : "Certificate of Achievement - A.S Honors",
-    "link" : "certs/itttechhonorscert.png"
+    "link" : "certs/itttechhonorscert.png",
+    "image" : "img/certs/itttechhonorscert.png"
   },
   {
     "organization" : "U.S Army",
     "title" : "Infantryman's Badge",
-    "link" : ""
+    "link" : "",
+    "image" : "img/cib.gif"
   },
   {
     "organization" : "U.S Army",
     "title" : "Army Commendation Medal",
-    "link" : ""
+    "link" : "",
+    "image" : "img/armycommendationmedal.png"
   }
 ]

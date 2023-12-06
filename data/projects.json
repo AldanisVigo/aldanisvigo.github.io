@@ -11,6 +11,21 @@
     ]
   },
   {
+    "title" : "Flutter Bluetooth LED Controller App",
+    "description" : "This project consists of a bluetooth enabled circuit created with an ATMEGA328P, an HM-10 bluetooth module, an ST7735 screen and a few other parts. There's also a Flutter application that sends commands to the circuit over bluetooth to turn a red and green led on and off.",
+    "display_image" : "img/projects/bluetooth_led_controller.jpeg",
+    "links" : [
+      {
+        "name" : "YouTube",
+        "url" : "https://www.youtube.com/watch?v=LrqjanwMXyU"
+      },
+      {
+        "name" : "GitHub",
+        "url" : "https://github.com/AldanisVigo/BluetoothLedControllerProject"
+      }
+    ]
+  },
+  {
     "title" : "Vigo's Rock Paper Scissors",
     "description" : "Last night I decided to make my second socket.io project. I decided to make a multiplayer rock paper scissors type game. The idea is players can join a chat, and the server will notify players of the current hand being played and provide a timer for players to make their selection: ‘rock’, ‘paper’ or ‘scissors’. When the current hand’s timer is up, the server displays everyones hands so that the group may determine the winner.\n\nThe focus of this project, was learning how to connect clients together using Socket.IO’s web socket functionality. I enjoyed working on this project and learning a bit more reactive programming using Node.js and Socket.IO",
     "display_image" : "img/projects/vigosrps.png",
@@ -26,10 +41,6 @@
     "description" : "I just deployed my first MERN application. After going through John Smilga’s Udemy course, I am proud to announce that I was able to build and deploy my very first MERN application to Heroku. I followed the course step by step and was able to create this demo application.",
     "display_image" : "img/projects/jobify.png",
     "links" : [
-      {
-        "name" : "Demo",
-        "url" : "http://vigosjobify.herokuapp.com"
-      },
       {
         "name" : "GitHub",
         "url" : "https://github.com/AldanisVigo/Jobify.git"
@@ -55,10 +66,6 @@
       {
         "name" : "Demo",
         "url" : "https://gamesbyvigo.web.app/"
-      },
-      {
-        "name" : "Jenn's Piggy Bank - GitHub",
-        "url" : "https://github.com/AldanisVigo/Drop-The-Coin/tree/main/Jenn's%20Piggy%20Bank"
       }
     ]
   },

@@ -173,8 +173,8 @@ const fillInResume = async () => {
                     <em>${item.position}</em>
                     <strong>Responsibilities:</strong>
                     ${$(responsibilitiesList).html()}
-                    <strong>Achievements:</strong>
-                    ${$(achievementsList).html()}
+                    ${item.achievements.length > 0 ? `<strong>Achievements:</strong>` : ''}
+                    ${item.achievements.length > 0 ? $(achievementsList).html() : ''}
                 </div>
             `)
         })
@@ -258,8 +258,16 @@ const fillInResume = async () => {
             let desc = document.createElement('div')
             $(desc).text(award.description)
 
+            //Add the image to the award if available
+            let awardImage = award.image ? document.createElement('img') : null;
+            if(awardImage){
+                $(awardImage).attr('src',award.image)
+                $(awardImage).addClass('img-fluid')
+                // $(awardImage)
+            }
+
             //Put it all together
-            $(awardElement).append(org).append(title).append(desc)
+            $(awardElement).append(org).append(title).append(desc).append(awardImage)
             $('#resume_awards').append(awardElement)
         })
 

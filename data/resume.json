@@ -1,7 +1,7 @@
 
   {
     "title":"Aldanis Vigo",
-    "position":"Full Stack Web Developer",
+    "position":"Web Developer",
     "headline":"Talented Veteran with full stack web development, problem-solving, and leadership experience. A mix of extreme curiosity, an agreeable personality and a passion to learn sparked my interest in pursuing a career in web development. I am pursuing the opportunity to leverage my skill set, to be part of a team, write readable code and use cutting edge technologies.",
     "phone":"(254) 394-9926",
     "email":"aldanisvigo@gmail.com",
@@ -9,19 +9,13 @@
     "linkedinurl":"https://www.linkedin.com/in/aldanisvigo/",
     "github":"aldanisvigo",
     "githuburl": "https://github.com/aldanisvigo",
-    "skillsandabilities":["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "skillsandabilities":["HTML", "CSS", "JavaScript", "Bootstrap","Java","Spring Boot","Thymeleaf","jQuery",".Net Core","React","Flutter","Dart"],
     "academic" : [
       {
         "institution" : "ITT Technical Institute Miami",
         "title" : "A.S - Computer and Electronics Engineering Technology",
         "graduated" : true,
         "graduation_date" : "June 9, 2013"
-      },
-      {
-        "institution" : "Excelsior University",
-        "title" : "B.S - Electrical Engineering Technology",
-        "graduated" : false,
-        "graduation_date" : "2024"
       },
       {
         "institution" : "Lorenzo Walker Institute of Technology",
@@ -32,10 +26,10 @@
     ],
     "professional" : [
       {
-        "company" : "Self Employed",
+        "company" : "Freelancer",
         "position" : "Web Developer",
         "start" : "April, 2011",
-        "end" : "Jan, 2022",
+        "end" : "Present",
         "responsibilities" : [
           "Designing websites, and marketing materials",
           "Writing code, and implementing designs",
@@ -43,6 +37,19 @@
         ],
         "achievements" : [
 
+        ]
+      },
+      {
+        "company" : "Interapt",
+        "position" : "Flutter Developer",
+        "start" : "Aug, 2023",
+        "end" : "Dec, 2023",
+        "responsibilities" : [
+          "Worked on the SmartHQ mobile application.",
+          "Daily standups, restrospectives and demo meetings.",
+          "Used ZenHub, GitHub and Microsoft Teams to track work."
+        ],
+        "achievements" : [
         ]
       },
       {
@@ -59,38 +66,6 @@
           "Earned the army commendation medal",
           "Earned the infantrymans badge"
         ]
-      },
-      {
-        "company" : "Sears",
-        "position" : "Electronics Salesman",
-        "start" : "Jan, 2006",
-        "end" : "May, 2008",
-        "responsibilities" : [
-          "Maintaining product sales quotas",
-          "Executing plannogram implementations",
-          "Maintaining customer relationships"
-        ],
-        "achievements" : [
-          "Consistently met my sales quotas."
-        ]
-      }
-    ],
-    "projects" : [
-      {
-        "name" : "Codeup Design",
-        "description" : "CodeUp Design Description"
-      },
-      {
-        "name" : "Smooth Coffee",
-        "description" : "Smooth Coffee Description"
-      },
-      {
-        "name" : "MapBox Best Dishes In Killeen TX",
-        "description" : "MapBox Best Dishes In Killeen TX Description"
-      },
-      {
-        "name" : "Danny's Weather Map",
-        "description" : "Danny's weather map description"
       }
     ]
   }

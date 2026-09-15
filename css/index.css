@@ -82,10 +82,10 @@ h3 { line-height: 1.25; }
 .contact-links a:hover { color: var(--ink); }
 
 .hero-visual { position: relative; }
-.portrait-name { position: absolute; top: -54px; left: 0; margin: 0; font-size: clamp(1.45rem, 2.2vw, 2rem); font-weight: 800; letter-spacing: -.03em; }
+.portrait-name { margin: 16px 0 0; font-size: clamp(1.45rem, 2.2vw, 2rem); font-weight: 800; letter-spacing: -.03em; text-align: center; }
 .portrait-frame { overflow: hidden; aspect-ratio: 4 / 5; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(145deg, var(--panel-light), var(--panel)); }
 .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: saturate(.8); }
-.status-card { position: absolute; right: -22px; bottom: 28px; display: flex; align-items: center; gap: 10px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); box-shadow: 0 18px 40px rgba(0, 0, 0, .3); font: 700 .75rem "Space Mono", monospace; }
+.status-card { position: absolute; right: -22px; bottom: 76px; display: flex; align-items: center; gap: 10px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); box-shadow: 0 18px 40px rgba(0, 0, 0, .3); font: 700 .75rem "Space Mono", monospace; }
 .status-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px rgba(74, 222, 128, .13); }
 
 .section { padding-block: 120px; scroll-margin-top: 70px; }

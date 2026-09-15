@@ -11,6 +11,17 @@ body{
     background-size: 80% 80%;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+}
+
+.hero-name {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(1.75rem, 3vw, 2.75rem);
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 #main_section{

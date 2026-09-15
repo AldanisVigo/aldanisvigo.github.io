@@ -1,288 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Style Sheet -->
+    <meta name="description" content="Aldanis Vigo is an electronics and mechanical technician and software developer specializing in connected systems, embedded electronics, Flutter, and web applications.">
+    <meta name="theme-color" content="#0b1220">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-
-    <!-- JavaScript -->
     <script src="js/index.js" defer></script>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
-    <!-- AOS - Animate on Scroll -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Title-->
-    <title>Aldanis Vigo - Full Stack Web Developer</title>
+    <title>Aldanis Vigo | Technician & Software Developer</title>
 </head>
 <body>
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg bg-light" data-aos="fade-right">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Aldanis Vigo - Web Developer</a>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- <li class="nav-item">
-                        </li> 
-                       
-                        <li>
-                            <a class="nav-link" href="#certs">Certifications</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#resume">Resume</a>
-                        </li> -->
-                    </ul>
-                    <!-- <form class="d-flex" role="search"> -->
-                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                        <!-- <button class="btn btn-outline-primary" type="submit">Search</button> -->
-                    <!-- </form> -->
-                </div>
+    <header class="site-header">
+        <nav class="nav shell" aria-label="Main navigation">
+            <a class="brand" href="#top">AV<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#credentials">Credentials</a>
             </div>
+            <a class="button button-small" href="mailto:aldanisvigo@gmail.com">Contact</a>
         </nav>
     </header>
-    
-    <main>
-        <div class="container" id="main_section">
-            <div class="row h-100">
-                <div class="col-12 col-md-5 col-lg-6 h-100" id="me" data-aos="fade-right">
+
+    <main id="top">
+        <section class="hero shell" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Technician · Developer · Builder</p>
+                <h1 id="hero-title">I connect the physical world with dependable software.</h1>
+                <p class="hero-summary" id="hero-summary">Electronics, mechanical systems, embedded hardware, and production applications—all approached with the same curiosity and care.</p>
+                <div class="hero-actions">
+                    <a class="button" href="#projects">Explore my work</a>
+                    <a class="text-link" href="#experience">View experience <span aria-hidden="true">→</span></a>
                 </div>
-                <div class="col-12 col-md-7 col-lg-6 d-flex flex-row align-items-center justify-content-center pe-5" data-aos="fade-left">
-                    <div class="flex-col">
-                        <div class="display-2 text-nowrap text-center w-100 text-shadow-sm unselectable-text">Hi, I'm Aldanis Vigo!</div>
-                        <div class="display-4 text-center unselectable-text text-italic">“I'm passionate about writing clean code, and learning new tech.”</div>
-                        <div class="row mt-5 w-100 mb-5">
-                            <!-- <div class="col-6 col-md-6 col-lg-3 text-center ps-1 pe-1 mt-3">
-                                <button class="btn btn-primary text-nowrap shadow-lg bounce">
-                                    Blog
-                                </button>
-                            </div> -->
-                            <!-- <div class="col-6 col-md-6 col-lg-4 text-center ps-1 pe-1 mt-3">
-                                <a href="#projects">
-                                    <button class="btn btn-primary text-nowrap shadow-lg bounce">
-                                        Projects
-                                    </button>
-                                </a>
-                            </div>
-                            -->
-                            <div class="col-6 col-md-6 col-lg-6 text-center ps-1 pe-1 mt-3">
-                                <a href="#resume">
-                                    <button class="btn btn-primary text-nowrap shadow-lg bounce">
-                                        Resume
-                                    </button>
-                                </a>
-                            </div> 
-                            <div class="col-6 col-md-6 col-lg-6 text-center ps-1 pe-1 mt-3">
-                                <a href="#certs">
-                                    <button class="btn btn-primary text-nowrap shadow-lg bounce">
-                                        Certs
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
+                <div class="contact-links" aria-label="Contact links">
+                    <a id="email-link" href="mailto:aldanisvigo@gmail.com">aldanisvigo@gmail.com</a>
+                    <a id="linkedin-link" href="https://www.linkedin.com/in/aldanisvigo/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a id="github-link" href="https://github.com/aldanisvigo" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-label="Portrait of Aldanis Vigo">
+                <div class="portrait-frame">
+                    <img src="img/me.png" alt="Aldanis Vigo">
+                </div>
+                <div class="status-card">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <span>Based in Central Texas</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section shell" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">What I bring</p>
+                <h2>Practical troubleshooting meets modern development.</h2>
+            </div>
+            <div class="skill-grid" id="skill-grid"></div>
+        </section>
+
+        <section class="section section-contrast" id="experience">
+            <div class="shell">
+                <div class="section-heading split-heading">
+                    <div>
+                        <p class="eyebrow">Experience</p>
+                        <h2>Built across software, electronics, and service.</h2>
+                    </div>
+                    <p>More than a decade of making systems work—from production mobile apps and connected hardware to field equipment and technical documentation.</p>
+                </div>
+                <div class="timeline" id="experience-list"></div>
+            </div>
+        </section>
+
+        <section class="section shell" id="projects">
+            <div class="section-heading split-heading">
+                <div>
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Projects that bridge code and hardware.</h2>
+                </div>
+                <p>Recent resume highlights appear first. Additional software and game projects remain here as part of the broader portfolio.</p>
+            </div>
+            <div class="project-grid" id="featured-projects"></div>
+            <details class="project-archive">
+                <summary>View additional projects <span aria-hidden="true">+</span></summary>
+                <div class="project-grid project-grid-archive" id="additional-projects"></div>
+            </details>
+        </section>
+
+        <section class="section section-contrast" id="credentials">
+            <div class="shell">
+                <div class="section-heading">
+                    <p class="eyebrow">Education & credentials</p>
+                    <h2>Always learning, always building.</h2>
+                </div>
+                <div class="education-grid" id="education-list"></div>
+
+                <div class="subsection-heading">
+                    <h3>Certifications</h3>
+                    <p>Development, cloud, and technical coursework collected over the years.</p>
+                </div>
+                <div class="certificate-grid" id="certs-container"></div>
+
+                <div class="recognition-grid">
+                    <div>
+                        <div class="subsection-heading"><h3>Awards</h3></div>
+                        <div id="awards-list"></div>
+                    </div>
+                    <div>
+                        <div class="subsection-heading"><h3>Leadership & involvement</h3></div>
+                        <div id="involvement-list"></div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <section class="container pt-5" id="resume">
-        <div class="row">
-            <span class="display-6">
-                My Resume
-            </span>
+    <footer class="footer">
+        <div class="shell footer-inner">
+            <div>
+                <p class="footer-name">Aldanis Vigo</p>
+                <p>Technician & software developer</p>
+            </div>
+            <p>© <span id="current-year"></span> Built with care in Central Texas.</p>
         </div>
-        <!-- START MAIN CONTAINER -->
-        <div class="container">
-            <!-- START TITLE ROW -->
-            <div class="row">
-                <div class="col text-center h1" id="resume_title"></div>
-            </div>
-            <!-- END TITLE ROW -->
-            <!-- START POSITION ROW -->
-            <div class="row">
-                <div class="col text-center h3" id="resume_position"></div>
-            </div>
-            <!-- END POSITION ROW -->
-            <!-- START HEADLINE ROW -->
-            <div class="row">
-                <div class="col text-center" id="resume_headline"></div>
-            </div>
-            <!-- END HEADLINE ROW -->
-            <!-- START CONTACT ROW -->
-            <div class="row mt-3 pb-2 text-center">
-                <div class="col-md-3">
-                    <i class="bi-person-fill" style="color: black;"></i> <span id="resume_phone"></span>
-                </div>
-                <div class="col-md-3">
-                    <i class="bi-envelope-fill" style="color: black;"></i> <span id="resume_email"></span>
-                </div>
-                <div class="col-md-3">
-                    <i class="bi bi-linkedin"></i>
-                    <span id="resume_linkedin"></span>
-                </div>
-                <div class="col-md-3">
-                    <i class="bi bi-github"></i>
-                    <span id="resume_github"></span>
-                </div>
-            </div>
-            <!-- END CONTACT ROW -->
-            <!-- START HORIZONTAL SEPARATOR -->
-            <div class="row mb-3">
-                <hr class="bg-success" style="height: 6px;">
-            </div>
-            <!-- END HORIZONTAL SEPARATOR -->
-            <!-- START CONTENT ROW -->
-            <div class="row">
-                <!-- START LEFT COLUMN -->
-                <div class="col-md-5">
-                    <!-- START SKILLS AND ABILITIES HEADLINE ROW -->
-                    <div class="row">
-                        <div class="col">
-                            <span class="h4 text-primary">
-                              SKILLS AND ABILITIES
-                            </span>
-                        </div>
-                    </div>
-                    <!-- END SKILLS AND ABILITIES HEADLINE ROW -->
-                    <!-- START SKILL AND ABILITIES LIST ROW -->
-                    <div class="row mb-10">
-                        <ul class="mx-4" id="resume_skills_and_abilities">
-                        </ul>
-                    </div>
-                    <!-- END SKILLS AND ABILITIES LIST ROW -->
-                    <!-- START ACADEMIC HEADLINE ROW -->
-                    <div class="row">
-                        <div class="col">
-                            <span class="h4 text-primary">
-                              ACADEMIC
-                            </span>
-                        </div>
-                    </div>
-                    <!-- END ACADEMIC HEADLINE ROW -->
-                    <!-- START ACADEMIC SECTION -->
-                    <div class="row">
-                        <div class="col" id="resume_academic">
-                        </div>
-                    </div>
-                    <!-- END ACADEMIC SECTION -->
-                    <!-- START PROFESSIONAL EXPERIENCE HEADLINE ROW -->
-                    <div class="row mt-4">
-                        <div class="col">
-                            <span class="h4 text-primary">
-                              PROFESSIONAL EXPERIENCE
-                            </span>
-                        </div>
-                    </div>
-                    <!-- END PROFESSIONAL EXPERIENCE HEADLINE ROW -->
-                    <div id="resume_professional_experience">
-                    </div>
-                </div>
-                <!-- END LEFT COLUMN -->
-                <!--START RIGHT COLUMN-->
-                <div class="col-md-7 mt-3">
-                    <!-- START DEVELOPMENT PROJECTS HEADLINE ROW -->
-                    <div class="row">
-                        <div class="col">
-                            <span class="h4 text-primary">
-                              DEVELOPMENT PROJECTS
-                            </span>
-                        </div>
-                    </div>
-                    <!-- END DEVELOPMENT PROJECTS HEADLINE ROW -->
-                    <div class="row">
-                        <div class="col" id="resume_projects">
-                        </div>
-                    </div>
-                    <!-- START AWARDS AND INVOLVEMENT HEADING -->
-                    <div class="row mb-3">
-                        <div class="col">
-                            <span class="h4 text-primary">
-                              AWARDS AND INVOLVEMENT
-                            </span>
-                        </div>
-                    </div>
-                    <!-- END AWARDS AND INVOLVEMENT HEADING -->
-                    <div id="resume_awards"></div>
-                    <hr>
-                    <div id="resume_involvement"></div>
-                </div>
-                <!--END CONTENT ROW-->
-            </div>
-        </div>
-        <!--END MAIN CONTAINER-->
-    </section>
-
-    <section class="container pt-5" id="certs">
-        <div class="row">
-            <span class="display-6">
-                My Certs
-            </span>
-        </div>
-        <div class="d-flex flex-wrap" id="certs_container"></div>
-    </section>
-
-    <section class="container pt-5" id="projects" aos-data="fade-up">
-        <div class="row">
-            <span class="display-6 p4">
-                My Projects
-            </span>
-        </div>
-    </section>
-    
-    <footer class="footer p-3">
-        Copyright © 2023 - Aldanis Vigo
     </footer>
-
-    <!-- AOS Animate on Scroll-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "1655237894716324");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v15.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
 </body>
 </html>

@@ -1,73 +1,104 @@
-
-  {
-    "title":"Aldanis Vigo",
-    "position":"Web Developer",
-    "headline":"Talented Veteran with full stack web development, problem-solving, and leadership experience. A mix of extreme curiosity, an agreeable personality and a passion to learn sparked my interest in pursuing a career in web development. I am pursuing the opportunity to leverage my skill set, to be part of a team, write readable code and use cutting edge technologies.",
-    "phone":"(254) 394-9926",
-    "email":"aldanisvigo@gmail.com",
-    "linkedin":"aldanisvigo",
-    "linkedinurl":"https://www.linkedin.com/in/aldanisvigo/",
-    "github":"aldanisvigo",
-    "githuburl": "https://github.com/aldanisvigo",
-    "skillsandabilities":["HTML", "CSS", "JavaScript", "Bootstrap","Java","Spring Boot","Thymeleaf","jQuery",".Net Core","React","Flutter","Dart"],
-    "academic" : [
-      {
-        "institution" : "ITT Technical Institute Miami",
-        "title" : "A.S - Computer and Electronics Engineering Technology",
-        "graduated" : true,
-        "graduation_date" : "June 9, 2013"
-      },
-      {
-        "institution" : "Lorenzo Walker Institute of Technology",
-        "title" : "General Education Diploma",
-        "graduated" : true,
-        "graduation_date" : "2007"
-      }
-    ],
-    "professional" : [
-      {
-        "company" : "Freelancer",
-        "position" : "Web Developer",
-        "start" : "April, 2011",
-        "end" : "Present",
-        "responsibilities" : [
-          "Designing websites, and marketing materials",
-          "Writing code, and implementing designs",
-          "Maintaining websites for various clients"
-        ],
-        "achievements" : [
-
-        ]
-      },
-      {
-        "company" : "Interapt",
-        "position" : "Flutter Developer",
-        "start" : "Aug, 2023",
-        "end" : "Dec, 2023",
-        "responsibilities" : [
-          "Worked on the SmartHQ mobile application.",
-          "Daily standups, restrospectives and demo meetings.",
-          "Used ZenHub, GitHub and Microsoft Teams to track work."
-        ],
-        "achievements" : [
-        ]
-      },
-      {
-        "company" : "U.S Army",
-        "position" : "Infantry Team Leader",
-        "start" : "May 11, 2008",
-        "end" : "May 11, 2011",
-        "responsibilities" : [
-          "Responsible for $80M Bradley weapons platform.",
-          "Leading a small mounted infantry team"
-        ],
-        "achievements" : [
-          "Closed-with, and destroyed enemies of the U.S",
-          "Earned the army commendation medal",
-          "Earned the infantrymans badge"
-        ]
-      }
-    ]
-  }
-
-
+{
+  "title": "Aldanis Vigo",
+  "position": "Electronics & Mechanical Technician | Software Developer",
+  "headline": "Electronics and mechanical technician with a strong software development background, hands-on automotive training, and experience troubleshooting connected systems, IoT hardware, Arduino-based electronics, and production applications.",
+  "phone": "(254) 394-9926",
+  "email": "aldanisvigo@gmail.com",
+  "linkedin": "aldanisvigo",
+  "linkedinurl": "https://www.linkedin.com/in/aldanisvigo/",
+  "github": "aldanisvigo",
+  "githuburl": "https://github.com/aldanisvigo",
+  "skillgroups": [
+    {
+      "title": "Electrical & Mechanical",
+      "skills": ["Automotive fundamentals", "Electrical circuits", "Diagnostics", "Schematics", "Wiring", "Sensors", "Actuators"]
+    },
+    {
+      "title": "Electronics",
+      "skills": ["Arduino", "IoT hardware", "Component assembly", "Basic test equipment", "Technical documentation"]
+    },
+    {
+      "title": "Software & Controls",
+      "skills": ["JavaScript", "HTML", "CSS", "Dart", "Swift", "Java", "Kotlin", "Node.js", "Firebase", "MySQL", "MongoDB"]
+    },
+    {
+      "title": "Frameworks & Tools",
+      "skills": ["React.js", "Vue.js", "Flutter", "WordPress", "Git", "GitHub", "DigitalOcean", "Heroku", "Dokku"]
+    },
+    {
+      "title": "Professional Strengths",
+      "skills": ["Troubleshooting", "Quality-focused repairs", "Team communication", "Leadership"]
+    }
+  ],
+  "academic": [
+    {
+      "institution": "Central Texas College",
+      "title": "Basic Automotive Technician Certificate",
+      "graduation_date": "2026"
+    },
+    {
+      "institution": "Full Sail University",
+      "title": "A.S. in Music Production",
+      "graduation_date": "April 2023"
+    },
+    {
+      "institution": "Codeup",
+      "title": "Full-Stack Java Career Accelerator, 670 hours",
+      "graduation_date": "January 2023"
+    },
+    {
+      "institution": "ITT Technical Institute, Miami",
+      "title": "A.S. Electronics Engineering Technology, Academic Honors",
+      "graduation_date": "June 2013"
+    }
+  ],
+  "professional": [
+    {
+      "company": "Interapt",
+      "position": "Flutter Developer",
+      "location": "Louisville, KY (Remote)",
+      "start": "August 2023",
+      "end": "Present",
+      "responsibilities": [
+        "Develop and maintain the SmartHQ application, which averages 4.7 stars on the Apple App Store and 4.3 stars on Google Play.",
+        "Participate in scrum meetings, retrospectives, sprint planning, and cross-functional delivery.",
+        "Use ZenHub, GitHub, App Center, and Azure Pipelines for collaboration and releases."
+      ]
+    },
+    {
+      "company": "Dart.Blue",
+      "position": "Software Developer",
+      "location": "Central Texas",
+      "start": "June 2013",
+      "end": "July 2023",
+      "responsibilities": [
+        "Developed TowPro, an internal dispatch, communications, document storage, and ticket-tracking application using Vue.js, Node.js, and Firebase.",
+        "Built IoT projects combining front-end applications with Arduino-based hardware.",
+        "Created the SalesRepFinder WordPress plugin for Morether Creative Agency and Indeco Sales."
+      ]
+    },
+    {
+      "company": "GarageLab LLC",
+      "position": "Electronics Engineering Technician",
+      "location": "Doral, FL",
+      "start": "June 2014",
+      "end": "January 2016",
+      "responsibilities": [
+        "Developed Arduino learning materials for the LabDeGaragem.com community.",
+        "Assembled electronics kits and supporting documentation for subscribers.",
+        "Translated technical documentation between Portuguese, Spanish, and English."
+      ]
+    },
+    {
+      "company": "U.S. Army",
+      "position": "Infantry",
+      "location": "United States",
+      "start": "2008",
+      "end": "2011",
+      "responsibilities": [
+        "Worked in disciplined team environments focused on safety, accountability, and mission readiness.",
+        "Maintained equipment, followed technical procedures, and performed under time-sensitive field conditions."
+      ]
+    }
+  ]
+}

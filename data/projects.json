@@ -1,116 +1,86 @@
 [
   {
     "title": "ACad Circuit CAD Tool",
-    "description": "A lightweight C++ circuit schematic viewer and editor for placing and connecting resistors, capacitors, coils, transistors, and wires. Includes grid snapping and JSON save/load for reusable circuit layouts.",
-    "display_image": "https://opengraph.githubassets.com/1/AldanisVigo/ACad",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/ACad"
-      }
-    ]
+    "featured": true,
+    "category": "Electronics Software",
+    "description": "C++ schematic viewer and editor for placing resistors, capacitors, coils, transistors, and wires, with grid snapping and JSON save/load.",
+    "technologies": ["C++", "CAD", "JSON"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/ACad"}]
   },
   {
     "title": "Bluetooth LED Controller",
-    "description": "An ATmega328P-based Bluetooth circuit using an HM-10 module, ST7735 display, and LED outputs, paired with a Flutter controller application that sends commands over Bluetooth.",
+    "featured": true,
+    "category": "Embedded & Mobile",
+    "description": "ATmega328P Bluetooth circuit using an HM-10 module, ST7735 display, and LED outputs, paired with a Flutter controller app.",
     "display_image": "img/projects/bluetooth_led_controller.jpeg",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/BluetoothLedControllerProject"
-      }
-    ]
+    "technologies": ["ATmega328P", "Bluetooth LE", "Flutter", "Arduino"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/BluetoothLedControllerProject"}]
   },
   {
     "title": "Claw Machine V1",
-    "description": "A custom ATmega328 microcontroller board for a claw machine project, combining embedded control code with schematic, board design, and technical documentation.",
-    "display_image": "https://raw.githubusercontent.com/AldanisVigo/ClawMachineV1/main/Board%20Preview.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/ClawMachineV1"
-      }
-    ]
+    "featured": true,
+    "category": "Embedded Systems",
+    "description": "Custom ATmega328 microcontroller board design and embedded control code for a claw machine, including schematic and board previews.",
+    "technologies": ["ATmega328", "PCB Design", "Embedded C"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/ClawMachineV1"}]
   },
   {
     "title": "QuestGame PIC32 USB and C",
-    "description": "A PIC32 USB CDC quiz-game system with a GTK C host controller, I2C LCD backpacks, physical player buttons, and active-low LED game-state indicators.",
-    "display_image": "https://raw.githubusercontent.com/AldanisVigo/QuestGamePIC32USBandC/main/Quest%20Board%20Design%20v1.0.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/QuestGamePIC32USBandC"
-      }
-    ]
+    "featured": true,
+    "category": "Embedded Systems",
+    "description": "PIC32 USB CDC quiz-game system with a GTK C host controller, I2C LCD backpacks, player buttons, and LED game-state indicators.",
+    "technologies": ["PIC32", "C", "GTK", "USB CDC", "I2C"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/QuestGamePIC32USBandC"}]
   },
   {
     "title": "MathGen",
-    "description": "An AI-driven math study aid that uses the OpenAI API to generate practice problems by subject and subtopic, with a Flutter interface and Node.js backend.",
-    "display_image": "https://raw.githubusercontent.com/AldanisVigo/MathGen/main/frontend/mathgen/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024%401x.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/MathGen"
-      }
-    ]
+    "featured": true,
+    "category": "AI Application",
+    "description": "Math practice application using the OpenAI API for subject and subtopic problem generation, with responsive UI and graceful HTTP handling.",
+    "technologies": ["OpenAI API", "Lottie", "Responsive UI"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/MathGen"}]
   },
   {
     "title": "Family Calendar .NET",
-    "description": "A family chore and rewards application where parents manage assignments and incentives while children submit completion proof and earn stars for the reward shop.",
+    "category": "Full-Stack Application",
+    "description": "Family chore and rewards platform where parents manage assignments and children submit completion proof to earn stars.",
     "display_image": "img/projects/familycalendardotnet.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/VigoFamilyCalendarAppDotNet"
-      }
-    ]
+    "technologies": [".NET", "Full Stack"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/VigoFamilyCalendarAppDotNet"}]
   },
   {
     "title": "Vigo's Rock Paper Scissors",
-    "description": "A multiplayer Rock Paper Scissors game with timed hands and group results, built to explore reactive programming with Node.js and Socket.IO.",
+    "category": "Real-Time Web",
+    "description": "Multiplayer Rock Paper Scissors game with timed hands and group results, built to explore reactive programming and WebSockets.",
     "display_image": "img/projects/vigosrps.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/RockPaperScissorsSocketIO"
-      }
-    ]
+    "technologies": ["Node.js", "Socket.IO", "JavaScript"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/RockPaperScissorsSocketIO"}]
   },
   {
     "title": "VigoChat",
-    "description": "A multi-user chat application with public rooms and private messaging, built with jQuery, Node.js, and Socket.IO.",
+    "category": "Real-Time Web",
+    "description": "Multi-user chat with public rooms and private messaging, built as a hands-on Socket.IO and jQuery project.",
     "display_image": "img/projects/vigochat.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/OpenShiftVigoChat"
-      }
-    ]
+    "technologies": ["Node.js", "Socket.IO", "jQuery"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/OpenShiftVigoChat"}]
   },
   {
     "title": "Interactive Slide Puzzle",
-    "description": "A draggable numbered tile puzzle written in JavaScript, HTML, and CSS, featuring animations, audio, and a lightweight game loop.",
+    "category": "Web Game",
+    "description": "Drag-and-drop numbered tile puzzle with CSS animation, audio, and a lightweight JavaScript game loop.",
     "display_image": "img/projects/slidepuzzle.gif",
+    "technologies": ["JavaScript", "HTML", "CSS"],
     "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/CodeupSlidePuzzle"
-      },
-      {
-        "name": "Demo",
-        "url": "https://aldanisvigo.github.io/CodeupSlidePuzzle/"
-      }
+      {"name": "GitHub", "url": "https://github.com/AldanisVigo/CodeupSlidePuzzle"},
+      {"name": "Demo", "url": "https://aldanisvigo.github.io/CodeupSlidePuzzle/"}
     ]
   },
   {
     "title": "Jobify MERN",
-    "description": "A full-stack job tracking application built while completing a MERN course, using MongoDB, Express, React, and Node.js.",
+    "category": "Learning Project",
+    "description": "Full-stack job tracking application built while completing a MERN course and deployed as a practical learning project.",
     "display_image": "img/projects/jobify.png",
-    "links": [
-      {
-        "name": "GitHub",
-        "url": "https://github.com/AldanisVigo/Jobify"
-      }
-    ]
+    "technologies": ["MongoDB", "Express", "React", "Node.js"],
+    "links": [{"name": "GitHub", "url": "https://github.com/AldanisVigo/Jobify"}]
   }
 ]

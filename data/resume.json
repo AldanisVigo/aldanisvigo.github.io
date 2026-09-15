@@ -1,104 +1,103 @@
 {
   "title": "Aldanis Vigo",
-  "position": "Electronics & Mechanical Technician",
-  "headline": "Electronics and mechanical technician with a strong software development background, hands-on automotive training, and experience troubleshooting connected systems, IoT hardware, Arduino-based electronics, and production applications. Skilled at reading technical information, diagnosing problems, documenting repairs, and improving systems through practical mechanical aptitude and modern development tools.",
+  "position": "Electronics & Mechanical Technician | Software Developer",
+  "headline": "Electronics and mechanical technician with a strong software development background, hands-on automotive training, and experience troubleshooting connected systems, IoT hardware, Arduino-based electronics, and production applications.",
   "phone": "(254) 394-9926",
   "email": "aldanisvigo@gmail.com",
   "linkedin": "aldanisvigo",
   "linkedinurl": "https://www.linkedin.com/in/aldanisvigo/",
   "github": "aldanisvigo",
   "githuburl": "https://github.com/aldanisvigo",
-  "skillsandabilities": [
-    "Automotive fundamentals",
-    "Electrical circuits",
-    "Diagnostics and schematics",
-    "Wiring, sensors, and actuators",
-    "Arduino and IoT hardware",
-    "Electronics assembly",
-    "Technical documentation",
-    "JavaScript, HTML, and CSS",
-    "Dart, Swift, Java, and Kotlin",
-    "Node.js and Firebase",
-    "MySQL and MongoDB",
-    "React.js, Vue.js, and Flutter",
-    "WordPress, Git, and GitHub",
-    "Troubleshooting and leadership"
+  "skillgroups": [
+    {
+      "title": "Electrical & Mechanical",
+      "skills": ["Automotive fundamentals", "Electrical circuits", "Diagnostics", "Schematics", "Wiring", "Sensors", "Actuators"]
+    },
+    {
+      "title": "Electronics",
+      "skills": ["Arduino", "IoT hardware", "Component assembly", "Basic test equipment", "Technical documentation"]
+    },
+    {
+      "title": "Software & Controls",
+      "skills": ["JavaScript", "HTML", "CSS", "Dart", "Swift", "Java", "Kotlin", "Node.js", "Firebase", "MySQL", "MongoDB"]
+    },
+    {
+      "title": "Frameworks & Tools",
+      "skills": ["React.js", "Vue.js", "Flutter", "WordPress", "Git", "GitHub", "DigitalOcean", "Heroku", "Dokku"]
+    },
+    {
+      "title": "Professional Strengths",
+      "skills": ["Troubleshooting", "Quality-focused repairs", "Team communication", "Leadership"]
+    }
   ],
   "academic": [
     {
       "institution": "Central Texas College",
       "title": "Basic Automotive Technician Certificate",
-      "graduated": true,
       "graduation_date": "2026"
     },
     {
       "institution": "Full Sail University",
       "title": "A.S. in Music Production",
-      "graduated": true,
-      "graduation_date": "April 4, 2023"
+      "graduation_date": "April 2023"
     },
     {
       "institution": "Codeup",
-      "title": "Full-Stack Java Career Accelerator - 670 hours",
-      "graduated": true,
+      "title": "Full-Stack Java Career Accelerator, 670 hours",
       "graduation_date": "January 2023"
     },
     {
-      "institution": "ITT Technical Institute Miami",
-      "title": "A.S. Electronics Engineering Technology - Academic Honors",
-      "graduated": true,
-      "graduation_date": "June 9, 2013"
+      "institution": "ITT Technical Institute, Miami",
+      "title": "A.S. Electronics Engineering Technology, Academic Honors",
+      "graduation_date": "June 2013"
     }
   ],
   "professional": [
     {
       "company": "Interapt",
-      "position": "Flutter Developer - Louisville, KY (Remote)",
+      "position": "Flutter Developer",
+      "location": "Louisville, KY (Remote)",
       "start": "August 2023",
       "end": "Present",
       "responsibilities": [
         "Develop and maintain the SmartHQ application, which averages 4.7 stars on the Apple App Store and 4.3 stars on Google Play.",
-        "Participate in scrum meetings, retrospectives, and sprint planning.",
+        "Participate in scrum meetings, retrospectives, sprint planning, and cross-functional delivery.",
         "Use ZenHub, GitHub, App Center, and Azure Pipelines for collaboration and releases."
-      ],
-      "achievements": []
+      ]
     },
     {
       "company": "Dart.Blue",
-      "position": "Software Developer - Central Texas",
+      "position": "Software Developer",
+      "location": "Central Texas",
       "start": "June 2013",
       "end": "July 2023",
       "responsibilities": [
-        "Developed TowPro, an internal application using Vue.js, Node.js, and Firebase.",
-        "Built IoT projects combining front-end web applications with Arduino-based hardware.",
+        "Developed TowPro, an internal dispatch, communications, document storage, and ticket-tracking application using Vue.js, Node.js, and Firebase.",
+        "Built IoT projects combining front-end applications with Arduino-based hardware.",
         "Created the SalesRepFinder WordPress plugin for Morether Creative Agency and Indeco Sales."
-      ],
-      "achievements": []
+      ]
     },
     {
       "company": "GarageLab LLC",
-      "position": "Electronics Engineering Technician - Doral, FL",
+      "position": "Electronics Engineering Technician",
+      "location": "Doral, FL",
       "start": "June 2014",
       "end": "January 2016",
       "responsibilities": [
         "Developed Arduino learning materials for the LabDeGaragem.com community.",
         "Assembled electronics kits and supporting documentation for subscribers.",
-        "Translated technical documentation from Portuguese to Spanish and English."
-      ],
-      "achievements": []
+        "Translated technical documentation between Portuguese, Spanish, and English."
+      ]
     },
     {
       "company": "U.S. Army",
       "position": "Infantry",
+      "location": "United States",
       "start": "2008",
       "end": "2011",
       "responsibilities": [
         "Worked in disciplined team environments focused on safety, accountability, and mission readiness.",
         "Maintained equipment, followed technical procedures, and performed under time-sensitive field conditions."
-      ],
-      "achievements": [
-        "Earned the Army Commendation Medal.",
-        "Earned the Combat Infantryman Badge."
       ]
     }
   ]
